@@ -1,0 +1,29 @@
+{
+    "name": "yehlu/open-admin-line-binder",
+    "description": "在 `open-admin` 加入 Line 通知綁定功能",
+    "require": {
+        "open-admin-org/open-admin": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yehlu",
+            "email": "yehlu@551.com.tw"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yehlu\\OpenAdmin\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yehlu\\OpenAdmin\\ServiceProvider"
+            ]
+        }
+    }
+}
