@@ -17,7 +17,7 @@
 執行指令加入套件
 
 ```shell
-composer require yehlu/laravel-admin-line-binder
+composer require yehlu/open-admin-line-binder
 ```
 
 Laravel 會自動發件此套件，所以不需要在 ServiceProvider 手動加入，如果是比較舊的版本請手動註冊。
